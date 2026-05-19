@@ -19,10 +19,14 @@ Aplikasi ini merupakan replikasi antarmuka (UI) dari aplikasi populer WhatsApp v
 - **Expanded:** Digunakan di dalam `ChatRoomPage` agar daftar obrolan dapat mengambil sisa ruang layar yang tersedia secara fleksibel tanpa merusak posisi bar input pesan di bagian bawah.
 
 ## Screenshot
-![Hasil UI](screenshot/hasil_ui.png)
+### Halaman Daftar Chat (Chat List)
+![Daftar Chat](screenshot/hasil_ui.png)
+
+### Halaman Ruang Obrolan (Chat Room)
+![Ruang Obrolan](screenshot/hasil_ui2.png)
 
 ## Wireframe
-![Wireframe](wireframe/wireframe_foto.jpg)
+![Sketsa Wireframe Manual](wireframe/wireframe_foto.jpg)
 
 ## Kesulitan yang Ditemui
 1. **Penyusunan Tata Letak & Masalah Overflow:** Kendala teknis utama yang dihadapi adalah mengatur agar bar input pesan di bagian bawah halaman `ChatRoomPage` tidak terdorong keluar layar atau mengalami *overflow* saat daftar chat bertambah banyak. Masalah ini berhasil diatasi dengan membungkus `ListView` ruang obrolan menggunakan widget `Expanded`, sehingga daftar chat tetap dapat di-scroll dengan aman di dalam sisa ruang yang tersedia di atas bar input.
